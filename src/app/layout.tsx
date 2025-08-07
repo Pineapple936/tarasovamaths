@@ -24,12 +24,12 @@ export const metadata: Metadata = {
       title: "Тарасова Екатерина | Репетитор по математике",
       description:
         "Занятия по математике онлайн: ЕГЭ, ОГЭ, подготовка к поступлению в профильные школы",
-      url: "https://tarasovamaths.vercel.app/",
+      url: "https://tarasovamaths.ru",
       locale: "ru_RU",
       type: "website",
       images: [
         {
-          url: "https://tarasovamaths.vercel.app/openGraph.jpg",
+          url: "https://tarasovamaths.ru/openGraph.jpg",
           width: 1200,
           height: 630,
           alt: "Онлайн занятия по математике — Тарасова Екатерина",

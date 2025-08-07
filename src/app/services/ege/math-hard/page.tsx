@@ -1,12 +1,10 @@
 "use client"
 import CourseLayout from "@/components/CourseLayout";
 import ScrollWrapper from "@/components/ScrollWrapper";
-import { useState } from "react";
 import Link from "next/link";
 import style from "@/app/services/learningTools.module.scss";
 
 export default function MathHard() {
-    const [showNumber13, setShowNumber13] = useState<boolean>(false);
     return (
         <CourseLayout>
             <header>Спецкурсы по заданиям второй части ЕГЭ профиль</header>

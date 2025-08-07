@@ -1,6 +1,7 @@
 import ScrollWrapper from "@/components/ScrollWrapper";
 import CourseLayout from "@/components/CourseLayout";
 import Link from "next/link";
+import style from "@/app/services/examStyles.module.scss";
 
 export default function Math58() {
     return (
@@ -40,6 +41,11 @@ export default function Math58() {
                     </article>
                 </ScrollWrapper>
             </section>
+            <div className={style.wrapperButton}>
+                <div className="button-link">
+                    <Link href="https://t.me/tarasovareview">Отзывы</Link>
+                </div>
+            </div>
         </CourseLayout>
     );
 }

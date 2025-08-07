@@ -6,30 +6,30 @@ export default function HalfyearProfile() {
     return (
         <CourseLayout>
             <header>Полугодовой курс по подготовке к ЕГЭ профильного уровня (1 часть)</header>
-            <section>
-                <div className={style.informationAboutCourse}>
-                    <div className={style.blockInformation}>
-                        <h2 className={style.title}>Как проходят занятия?</h2>
-                        <ul>
-                            <li>Разберем все задания экзамена в комфортном темпе</li>
-                            <li>Каждый урок в записи не более 40 мин </li>
-                            <li>Домашняя работа сдается раз в неделю</li>
-                            <li>В каждом уроке на неделю: видеоурок, домашняя работа и теоретический материал</li>
-                        </ul>
-                    </div>
-                    <div className={style.blockInformation}>
-                        <h2 className={style.title}>Преимущества обучения</h2>
-                        <ul>
-                            <li>Уроки можно смотреть в любое время</li>
-                            <li>Без лишней воды — только задания, которые могут встретиться на экзамене</li>
-                            <li>Уроки можно пересматривать — записи останутся у тебя до дня экзамена</li>
-                            <li>Все уроки составлены на основе банка ФИПИ (составителей экзамена)</li>
-                            <li>Вся теория собрана в удобных чек-листах</li>
-                            <li>Строгие дедлайны сдачи работ для эффективного прохождения курса</li>
-                            <li>Пробники для отслеживания прогресса</li>
-                        </ul>
-                    </div>
-                </div>
+            <section className={style.informationAboutCourse}>
+                <article className="spawnItem">
+                    <input type="checkbox" id="lesson" />
+                    <label htmlFor="lesson"><i className='bx bx-chevron-down'/></label> Как проходят занятия?
+                    <ul className="content">
+                        <li>Разберем все задания экзамена в комфортном темпе</li>
+                        <li>Каждый урок в записи не более 40 мин </li>
+                        <li>Домашняя работа сдается раз в неделю</li>
+                        <li>В каждом уроке на неделю: видеоурок, домашняя работа и теоретический материал</li>
+                    </ul>
+                </article>
+                <article className="spawnItem">
+                    <input type="checkbox" id="benefits" />
+                    <label htmlFor="benefits"><i className='bx bx-chevron-down'/></label> Преимущества обучения
+                    <ul className="content">
+                        <li>Уроки можно смотреть в любое время</li>
+                        <li>Без лишней воды — только задания, которые могут встретиться на экзамене</li>
+                        <li>Уроки можно пересматривать — записи останутся у тебя до дня экзамена</li>
+                        <li>Все уроки составлены на основе банка ФИПИ (составителей экзамена)</li>
+                        <li>Вся теория собрана в удобных чек-листах</li>
+                        <li>Строгие дедлайны сдачи работ для эффективного прохождения курса</li>
+                        <li>Пробники для отслеживания прогресса</li>
+                    </ul>
+                </article>
                 <div className="button-link">
                     <Link href="halfyear-profile/timetable">Расписание курса</Link>
                 </div>

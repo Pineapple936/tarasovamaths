@@ -63,11 +63,8 @@ export default function ScrollWrapper({ children, countItems }: { children: Reac
         const threshold = 50;
 
         if (Math.abs(diff) > threshold) {
-            if (diff > 0 && activeIndex < countItems - 1) {
-                setActiveIndex(activeIndex + 1);
-            } else if (diff < 0 && activeIndex > 0) {
-                setActiveIndex(activeIndex - 1);
-            }
+            if (diff > 0) setActiveIndex((prev) => (prev + 1) % countItems);
+            else setActiveIndex((prev) => (prev - 1 + countItems) % countItems);
         }
 
         setIsDragging(false);
@@ -99,6 +96,8 @@ export default function ScrollWrapper({ children, countItems }: { children: Reac
                 onMouseLeave={handleMouseUp}
                 style={{ cursor: isDragging ? 'grabbing' : 'grab' }}
             >
+                <button className={style.buttonleft} onClick={() => setActiveIndex((prev) => (prev - 1 + countItems) % countItems)}><i className='bx bx-chevron-left'/></button>
+                <button className={style.buttonright} onClick={() => setActiveIndex((prev) => (prev + 1) % countItems)}><i className='bx bx-chevron-right'/></button>
                 <div className={style.lenta} style={{ transform: `translateX(calc(-${activeIndex} * (var(--widthBlock) + var(--gap))))` }}>
                     {children}
                 </div>

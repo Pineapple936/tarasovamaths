@@ -4,7 +4,7 @@ import style from "@/app/services/timetable.module.scss"
 export default function Timetable() {
     return (
         <CourseLayout>
-            <header>Расписание годового курса ЕГЭ (Базовый уровень)</header>
+            <header>Годовой курс по базовой математике</header>
             <section className={style.timetable}>
                 <div>
                     <p><b>-1 урок: </b>Разбор демо-версии</p>

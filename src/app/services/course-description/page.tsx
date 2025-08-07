@@ -15,14 +15,14 @@ export default function MessengerSupport() {
                     <li>Авторские <b>чек-листы с теорией и формулами</b></li>
                     <li>Использую <b>интерактивные платформы</b> для закрепления пройденных тем</li>
                     <li>Высылаю материалы и пособия — ничего <b>дополнительно покупать не нужно</b></li>
-                    <li>Обратная связь со мной в любое время</li>
+                    <li><b>Обратная связь</b> со мной <b>в любое время</b></li>
                     <li>Каждую неделю дается <b>домашнее задание</b>, которое присылается на проверку в определенные сроки, после проверки подробно разбираем решенные задания <b>вне основного времени занятий</b></li>
                     <li>Подробно <b>разбираем оформление</b> заданий экзамена</li>
                 </ol>
             </section>
             <section>
                 <h2 style={{"marginBottom": "20px"}}>Материалы, используемые на занятиях</h2>
-                <ScrollWrapper countItems={8}>
+                <ScrollWrapper countItems={7}>
                     <article className="cell" style={{"gap": "15px", "padding": "0", "paddingBottom": "10px"}}>
                         <div className="imageScroll">
                             <Image
@@ -93,17 +93,6 @@ export default function MessengerSupport() {
                         <div className="imageScroll">
                             <Image
                                 src="/courses/ege/message-support/interactive1.jpg"
-                                alt="Интерактивы"
-                                fill
-                                loading="lazy"
-                            />
-                        </div>
-                        <p>Интерактивы</p>
-                    </article>
-                    <article className="cell" style={{"gap": "15px", "padding": "0", "paddingBottom": "10px"}}>
-                        <div className="imageScroll">
-                            <Image
-                                src="/courses/ege/message-support/interactive2.jpg"
                                 alt="Интерактивы"
                                 fill
                                 loading="lazy"

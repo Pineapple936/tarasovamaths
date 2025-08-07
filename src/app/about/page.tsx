@@ -24,7 +24,7 @@ export default function About() {
                         <ul>
                             <li><i className='bx bx-time-five' /> 7 лет опыта работы репетитором</li>
                             <li><i className='bx bx-user-check'/> Обучила более 100 учеников, провела более 5.000 занятий</li>
-                            <li><i className='bx bx-buildings' /> Ученики поступают в МГУ, МГИМО, ВШЭ, РУДН и др. вузы</li>
+                            <li><i className='bx bx-buildings' /> Ученики поступают в МГУ, МГИМО, ВШЭ, РУДН и другие ведущие вузы</li>
                             <li><i className='bx bx-edit-alt' /> Сдавала ОГЭ и ЕГЭ (база и профиль)</li>
                             <li><i className='bx bx-book-reader' /> Регулярно учусь у экспертов ОГЭ и ЕГЭ</li>
                         </ul>

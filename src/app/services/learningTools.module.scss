@@ -19,20 +19,8 @@
 
 .informationAboutCourse {
     display: flex;
-    gap: 15px;
-    margin: 20px 0;
-}
-
-.blockInformation {
-    .title {
-        font-size: 1.7rem;
-        line-height: 1.5;
-    }
-
-    ul li {
-        line-height: 1.9;
-        text-align: start;
-    }
+    flex-direction: column;
+    gap: 30px;
 }
 
 .tariffs {
@@ -69,13 +57,5 @@
 
     article:last-child {
         margin: 0;
-    }
-}
-
-@media(max-width: 700px) {
-    .informationAboutCourse {
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
     }
 }
