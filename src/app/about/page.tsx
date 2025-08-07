@@ -10,7 +10,7 @@ export default function About() {
             <section className={style.block} style={{"padding": "10px 0"}}>
                 <div className={style.content}>
                     <article className={style.image}>
-                        <div style={{"aspectRatio": "3034 / 4247"}}>
+                        <div style={{"aspectRatio": "2758 / 3861"}}>
                             <Image
                                 src="/about/photo/greet.JPG"
                                 alt="Фотография репетитора"
@@ -47,7 +47,7 @@ export default function About() {
                         </div>
                     </ul>
                     <article className={style.image}>
-                        <div style={{"aspectRatio": "2905 / 4067"}}>
+                        <div style={{"aspectRatio": "2701 / 3022"}}>
                             <Image
                                 src="/about/photo/education.JPG"
                                 alt="Фотография репетитора"
