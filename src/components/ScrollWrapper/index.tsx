@@ -83,7 +83,7 @@ export default function ScrollWrapper({ children, countItems }: { children: Reac
     }, [isDragging]);
 
     return (
-        <div className={style.wrapper} style={{"padding": "0"}}>
+        <div className={style.wrapper}>
             <div
                 className={style.container}
                 ref={containerRef}
@@ -96,14 +96,16 @@ export default function ScrollWrapper({ children, countItems }: { children: Reac
                 onMouseLeave={handleMouseUp}
                 style={{ cursor: isDragging ? 'grabbing' : 'grab' }}
             >
-                <button className={style.buttonleft} onClick={() => setActiveIndex((prev) => (prev - 1 + countItems) % countItems)}><i className='bx bx-chevron-left'/></button>
-                <button className={style.buttonright} onClick={() => setActiveIndex((prev) => (prev + 1) % countItems)}><i className='bx bx-chevron-right'/></button>
                 <div className={style.lenta} style={{ transform: `translateX(calc(-${activeIndex} * (var(--widthBlock) + var(--gap))))` }}>
                     {children}
                 </div>
             </div>
-            <div className={style.buttonsContainer}>
-                {buttons}
+            <div className={style.buttonsWrapper}>
+                <button onClick={() => setActiveIndex((prev) => (prev - 1 + countItems) % countItems)}><i className='bx bx-chevron-left'/></button>
+                <div className={style.lineButton}>
+                    {buttons}
+                </div>
+                <button className={style.buttonright} onClick={() => setActiveIndex((prev) => (prev + 1) % countItems)}><i className='bx bx-chevron-right'/></button>
             </div>
         </div>
     );

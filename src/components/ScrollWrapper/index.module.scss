@@ -1,14 +1,14 @@
 .wrapper {
+    --widthWindow: 1000px;
+    --widthBlock: 600px;
+    --gap: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    padding: 0;
 
     .container {
-        --widthWindow: 1000px;
-        --widthBlock: 600px;
-        --gap: 50px;
-        position: relative;
         width: var(--widthWindow);
         height: max-content;
         overflow: hidden;
@@ -31,8 +31,30 @@
             }
         }
     }
+}
 
-    .buttonsContainer {
+.buttonsWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--widthWindow);
+    box-sizing: border-box;
+    padding: 0 10px;
+
+    button {
+        display: grid;
+        place-content: center;
+        border: none;
+        border-radius: 50%;
+        outline: none;
+        font-size: 3.5rem;
+        cursor: pointer;
+        backdrop-filter: blur(10px);
+        background-color: var(--main-color);
+        color: var(--font-color);
+    }
+
+    .lineButton {
         display: flex;
         justify-content: center;
         gap: 10px;
@@ -55,31 +77,8 @@
     }
 }
 
-.buttonleft, .buttonright {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    display: grid;
-    place-content: center;
-    border: none;
-    border-radius: 50%;
-    font-size: 4rem;
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.3);
-    z-index: 2;
-    cursor: pointer;
-}
-
-.buttonleft {
-    left: 5px;
-}
-
-.buttonright {
-    right: 5px;
-}
-
 @media(max-width: 1010px) {
-    .wrapper .container {
+    .wrapper {
         --widthWindow: 100vw;
         --widthBlock: 90vw;
         --gap: 30px;
