@@ -24,12 +24,10 @@
     flex-direction: column;
     justify-content: end;
 
-    header {
-        color: #111111;
-    }
-
-    h2 {
+    header, h2 {
         color: white;
+        filter: brightness(1);
+        text-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
     }
 }
 
