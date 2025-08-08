@@ -6,6 +6,8 @@
     button {
         width: 90%;
         max-width: 1000px;
+        background-color: transparent;
+        border: 2px solid var(--main-color);
 
         span {
             padding: 5px 0;
