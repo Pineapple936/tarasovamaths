@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
     category: "Education",
     icons: {
-        icon: "/icon.jpg"
+        icon: "/icon.ico"
     }
 };
 
