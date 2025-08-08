@@ -37,9 +37,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: var(--widthWindow);
-    box-sizing: border-box;
-    padding: 0 10px;
+    gap: 30px;
 
     button {
         display: grid;
@@ -82,5 +80,21 @@
         --widthWindow: 100vw;
         --widthBlock: 90vw;
         --gap: 30px;
+    }
+}
+
+@media(max-width: 600px) {
+    .buttonsWrapper {
+        gap: 10px;
+
+        button {
+            font-size: 3rem;
+        }
+    }
+}
+
+@media(max-width: 350px) {
+    .buttonsWrapper button {
+        font-size: 2rem;
     }
 }
