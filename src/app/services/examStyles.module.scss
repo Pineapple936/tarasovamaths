@@ -70,18 +70,6 @@
     }
 }
 
-.wrapperButton {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px 0;
-
-    div {
-        width: 90%;
-        max-width: 1000px;
-    }
-}
-
 @media(max-width: 1010px) {
     .course {
         display: flex;

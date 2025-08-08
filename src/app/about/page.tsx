@@ -83,13 +83,14 @@ export default function About() {
                 <ScrollWrapper countItems={7}>
                     <article>
                         <div className="imageScroll" style={{"transform": "rotate(-90deg)"}}>
-                            <Image
+                            `<Image
                                 src="/about/diplomas/1.jpg"
                                 alt="Удостоверение о повышении квалификации"
                                 fill
                                 loading="lazy"
+                                draggable={false}
                                 style={{ objectFit: "unset", objectPosition: "unset" }}
-                            />
+                            />`
                         </div>
                     </article>
                     <article>
@@ -99,6 +100,7 @@ export default function About() {
                                 alt="Удостоверение о повышении квалификации от Фоксфорд"
                                 fill
                                 loading="lazy"
+                                draggable={false}
                                 style={{ objectFit: "unset", objectPosition: "unset" }}
                             />
                         </div>
@@ -110,6 +112,7 @@ export default function About() {
                                 alt="Диплом о профессиональной переподготовке"
                                 fill
                                 loading="lazy"
+                                draggable={false}
                                 style={{ objectFit: "unset", objectPosition: "unset" }}
                             />
                         </div>
@@ -121,6 +124,7 @@ export default function About() {
                                 alt="Диплом специалиста"
                                 fill
                                 loading="lazy"
+                                draggable={false}
                                 style={{ objectFit: "unset", objectPosition: "unset" }}
                             />
                         </div>
@@ -132,6 +136,7 @@ export default function About() {
                                 alt="Участник летней школы для учителей математики от МГУ"
                                 fill
                                 loading="lazy"
+                                draggable={false}
                                 style={{ objectFit: "unset", objectPosition: "unset" }}
                             />
                         </div>
@@ -143,6 +148,7 @@ export default function About() {
                                 alt="Участник летней школы для учителей математики от МГУ"
                                 fill
                                 loading="lazy"
+                                draggable={false}
                                 style={{ objectFit: "unset", objectPosition: "unset" }}
                             />
                         </div>
@@ -154,6 +160,7 @@ export default function About() {
                                 alt="Сертификкат об окончании с отличием курса по повышению квалификации репетитора"
                                 fill
                                 loading="lazy"
+                                draggable={false}
                                 style={{ objectFit: "unset", objectPosition: "unset" }}
                             />
                         </div>

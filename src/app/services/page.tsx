@@ -36,7 +36,7 @@ export default function Services() {
                     <article className={`${style.service} cell`}>
                         <div>
                             <h1>Для репетиторов</h1>
-                            <p style={{"marginTop": "15px"}}>Обсуждаем методику, сложные случаи и развитие практики</p>
+                            <p style={{"marginTop": "15px"}}>О методике, улучшении качества занятий и эффективной подготовке к экзаменам</p>
                         </div>
                         <div className="button-link">
                             <a href="services/for-tutors">Подробнее</a>
