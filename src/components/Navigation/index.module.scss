@@ -10,10 +10,10 @@
     background-color: var(--global-background-color);
 
     .title {
-        --first-color: #6a11cb;
-        --second-color: #2575fc;
-        --thirst-color: #00c6ff;
-        background: linear-gradient(90deg, var(--first-color), var(--second-color), var(--thirst-color));
+        --first-color:  #3e6fe6;
+        --second-color: #5b8cff;
+        --third-color:  #8fb4ff;
+        background: linear-gradient(90deg, var(--first-color), var(--second-color), var(--third-color));
         background-size: 200% 100%;
         background-repeat: no-repeat;
         -webkit-background-clip: text;
