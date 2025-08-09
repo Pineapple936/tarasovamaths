@@ -16,7 +16,7 @@ export default function Navigation() {
 
     return (
         <nav className={style.navigation}>
-            <h1 className={style.title}>@tarasovamaths</h1>
+            <Link passHref href="https://t.me/tarasovamaths" className={style.title}>@tarasovamaths</Link>
             <div className={style.navigateBlock}>
                 <button onClick={() => setOpen(prev => !prev)}><i className={`bx ${open ? 'bx-x' : 'bx-menu'}`} /></button>
                 <div className={`${style.navigateLinks} ${open ? style.open : ""}`}>
