@@ -1,0 +1,22 @@
+.links{
+    display: flex;
+    gap: 20px;
+
+    a {
+        --width: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: var(--width);
+        aspect-ratio: 1 / 1;
+        font-size: var(--width);
+        color: var(--color);
+        transition: all .3s ease;
+    }
+}
+
+@media(hover: hover) {
+    .links a:hover {
+        transform: scale(1.3);
+    }
+}
