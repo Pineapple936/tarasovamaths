@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tarasovamaths.ru/sitemap.xml
