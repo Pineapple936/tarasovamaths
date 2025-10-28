@@ -7,7 +7,8 @@ export default function Footer() {
       <div className={style.container}>
         <div className={style.legal}>
           <p>ИП Тарасова Екатерина Дмитриевна</p>
-          <p>ИНН 621901706667, ОГРНИП 324620000039262</p>
+          <p>ИНН 621901706667</p>
+          <p>ОГРНИП 324620000039262</p>
           <p>Тел: +7 (930) 881-59-30</p>
         </div>
         <p className={style.copyright}>
