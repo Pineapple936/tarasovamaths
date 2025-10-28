@@ -1,5 +1,5 @@
 .footer {
-  background: transparent;
+  font-size: 1rem;
   padding: 2rem 1rem;
   margin-top: auto;
 }
@@ -16,39 +16,26 @@
 
 .copyright {
   font-weight: 500;
-  font-size: 1rem;
 }
 
 .links {
-  a {
-    font-size: 1rem;
-    text-decoration: underline;
-    color: var(--main-color);
-    filter: brightness(0.7);
-    transition: filter 0.3s ease;
+  font-size: 1rem;
+  text-decoration: underline;
+  color: var(--main-color);
+  filter: brightness(0.7);
+  transition: filter 0.3s ease;
 
-    &:hover {
-      filter: brightness(1);
-    }
+  &:hover {
+    filter: brightness(1);
   }
 }
 
 .legal {
-  font-size: 0.875rem;
   opacity: 0.8;
-  line-height: 1.5;
-
-  p {
-    margin: 0.25rem 0;
-  }
 }
 
 @media (max-width: 768px) {
   .footer {
     padding: 1.5rem 1rem;
-  }
-
-  .legal {
-    font-size: 0.75rem;
   }
 }
