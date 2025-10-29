@@ -2,7 +2,7 @@
   font-size: 1rem;
   padding: 2rem 1rem;
   margin-top: auto;
-  font-variant-numeric: normal;
+  font-variant-numeric: normal !important;
 }
 
 .container {
@@ -34,21 +34,4 @@
 .legal {
   opacity: 0.8;
   font-size: 1rem;
-
-  p {
-    font-variant-numeric: normal;
-    font-feature-settings: normal;
-  }
-}
-
-@media (max-width: 768px) {
-  .footer {
-    padding: 1.5rem 1rem;
-    font-variant-numeric: normal;
-  }
-
-  .legal p {
-    font-variant-numeric: normal !important;
-    font-feature-settings: normal !important;
-  }
 }
