@@ -2,7 +2,9 @@
   font-size: 1rem;
   padding: 2rem 1rem;
   margin-top: auto;
+  font-variant-numeric: normal !important;
   -webkit-text-size-adjust: 100%;
+  font-feature-settings: normal;
 }
 
 .container {
@@ -34,5 +36,7 @@
 .legal {
   opacity: 0.8;
   font-size: 1rem;
+  font-variant-numeric: normal !important;
+  font-feature-settings: normal;
   -webkit-text-size-adjust: 100%;
 }
