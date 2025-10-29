@@ -36,7 +36,6 @@
 .legal {
   opacity: 0.8;
   font-size: 1rem;
-  font-variant-numeric: normal !important;
-  font-feature-settings: normal;
-  -webkit-text-size-adjust: 100%;
+  font-feature-settings: "pnum", "lnum";
+  -webkit-font-feature-settings: "pnum", "lnum";
 }
