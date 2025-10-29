@@ -42,6 +42,9 @@ export const metadata: Metadata = {
   icons: {
     icon: "/icon.ico",
   },
+  other: {
+    "format-detection": "telephone=no",
+  },
 };
 
 export default function RootLayout({
