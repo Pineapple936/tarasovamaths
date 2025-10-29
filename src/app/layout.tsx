@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import "./globals.scss";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://tarasovamaths.ru"),
   title:
     "Репетитор по математике — Тарасова Екатерина | Подготовка к ЕГЭ, ОГЭ и поступлению в профильные школы",
   description:
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://tarasovamaths.ru/openGraph.jpg",
+        url: "/openGraph.jpg",
         width: 1200,
         height: 630,
         alt: "Онлайн занятия по математике — Тарасова Екатерина",
