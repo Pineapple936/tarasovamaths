@@ -17,7 +17,6 @@ export function middleware(request: NextRequest) {
     "form-action 'self'",
     "frame-ancestors 'self'",
     "upgrade-insecure-requests",
-    "block-all-mixed-content",
   ].join("; ");
 
   const requestHeaders = new Headers(request.headers);
