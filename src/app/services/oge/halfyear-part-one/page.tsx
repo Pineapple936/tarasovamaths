@@ -38,7 +38,7 @@ export default function HalfyearPartOne() {
           </ul>
         </article>
         <div className="button-link">
-          <Link href="halfyear-part-one/timetable">Расписание курса</Link>
+          <Link href="/services/oge/halfyear-part-one/timetable">Расписание курса</Link>
         </div>
       </section>
 

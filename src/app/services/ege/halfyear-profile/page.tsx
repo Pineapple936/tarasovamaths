@@ -38,7 +38,7 @@ export default function HalfyearProfile() {
           </ul>
         </article>
         <div className="button-link">
-          <Link href="halfyear-profile/timetable">Расписание курса</Link>
+          <Link href="/services/ege/halfyear-profile/timetable">Расписание курса</Link>
         </div>
       </section>
 

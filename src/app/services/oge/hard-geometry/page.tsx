@@ -45,7 +45,7 @@ export default function HardGeometry() {
           </ul>
         </article>
         <div className="button-link">
-          <Link href="hard-geometry/details">Подробнее о курсе</Link>
+          <Link href="/services/oge/hard-geometry/details">Подробнее о курсе</Link>
         </div>
       </section>
 

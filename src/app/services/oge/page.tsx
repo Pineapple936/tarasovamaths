@@ -8,16 +8,16 @@ export default function Oge() {
     <CourseLayout>
       <section className={style.links}>
         <div className="button-link">
-          <Link href="oge/beginner">Гайды по заданиям 1 - 5 ОГЭ</Link>
+          <Link href="/services/oge/beginner">Гайды по заданиям 1 - 5 ОГЭ</Link>
         </div>
         <div className="button-link">
-          <Link href="oge/halfyear-part-one">Полугодовой курс по первой части</Link>
+          <Link href="/services/oge/halfyear-part-one">Полугодовой курс по первой части</Link>
         </div>
         <div className="button-link">
-          <Link href="oge/hard-algebra">Спецкурс по второй части (Алгебра)</Link>
+          <Link href="/services/oge/hard-algebra">Спецкурс по второй части (Алгебра)</Link>
         </div>
         <div className="button-link">
-          <Link href="oge/hard-geometry">Спецкурс по второй части (Геометрия)</Link>
+          <Link href="/services/oge/hard-geometry">Спецкурс по второй части (Геометрия)</Link>
         </div>
       </section>
       <section style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>

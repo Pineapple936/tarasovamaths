@@ -38,7 +38,7 @@ export default function YearBasicMath() {
           </ul>
         </article>
         <div className="button-link">
-          <Link href="year-basic-math/timetable">Расписание курса</Link>
+          <Link href="/services/ege/year-basic-math/timetable">Расписание курса</Link>
         </div>
       </section>
 

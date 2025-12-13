@@ -8,18 +8,18 @@ export default function Ege() {
     <CourseLayout>
       <section className={style.links}>
         <div className="button-link">
-          <Link href="ege/checklist-ege">Чек-лист по теории ЕГЭ</Link>
+          <Link href="/services/ege/checklist-ege">Чек-лист по теории ЕГЭ</Link>
         </div>
         <div className="button-link">
-          <Link href="ege/year-basic-math">Годовой курс по базовой математике</Link>
+          <Link href="/services/ege/year-basic-math">Годовой курс по базовой математике</Link>
         </div>
         <div className="button-link">
-          <Link href="ege/halfyear-profile">
+          <Link href="/services/ege/halfyear-profile">
             Полугодовой курс по профильной математике (1 часть)
           </Link>
         </div>
         <div className="button-link">
-          <Link href="ege/math-hard">Вторая часть ЕГЭ</Link>
+          <Link href="/services/ege/math-hard">Вторая часть ЕГЭ</Link>
         </div>
       </section>
       <section>

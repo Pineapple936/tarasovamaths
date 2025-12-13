@@ -1,3 +1,4 @@
+import Link from "next/link";
 import style from "./page.module.scss";
 
 export default function Services() {
@@ -14,7 +15,7 @@ export default function Services() {
               </p>
             </div>
             <div className="button-link">
-              <a href="services/ege">Подробнее</a>
+              <Link href="/services/ege">Подробнее</Link>
             </div>
           </article>
           <article className={`${style.service} cell`}>
@@ -26,7 +27,7 @@ export default function Services() {
               </p>
             </div>
             <div className="button-link">
-              <a href="/services/oge">Подробнее</a>
+              <Link href="/services/oge">Подробнее</Link>
             </div>
           </article>
           <article className={`${style.service} cell`}>
@@ -37,7 +38,7 @@ export default function Services() {
               </p>
             </div>
             <div className="button-link">
-              <a href="services/math-5-8">Подробнее</a>
+              <Link href="/services/math-5-8">Подробнее</Link>
             </div>
           </article>
           <article className={`${style.service} cell`}>
@@ -48,7 +49,7 @@ export default function Services() {
               </p>
             </div>
             <div className="button-link">
-              <a href="services/for-tutors">Подробнее</a>
+              <Link href="/services/for-tutors">Подробнее</Link>
             </div>
           </article>
         </article>
