@@ -97,7 +97,9 @@ export default function About() {
         <iframe
           width="100%"
           src="https://rutube.ru/play/embed/6c9644266b243e3a3b4db1c105ad5330"
+          sandbox="allow-scripts allow-same-origin allow-presentation"
           allow="autoplay; fullscreen"
+          referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         />
       </section>
