@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import { headers } from "next/headers";
 import "./globals.scss";
 
 export const metadata: Metadata = {
@@ -53,10 +54,16 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const nonce = headers().get("x-nonce") || undefined;
+
   return (
     <html lang="ru">
       <head>
-        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+        <link
+          href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+          rel="stylesheet"
+          nonce={nonce}
+        />
       </head>
       <body>
         <div className="wrapper">
