@@ -32,7 +32,7 @@ export default function Math58() {
             </ul>
             <div>
               <p>55 минут</p>
-              <b>3.000₽</b>
+              <b>3.500₽</b>
             </div>
             <div className="button-link">
               <Link href="/services/course-description">Подробнее</Link>
@@ -46,7 +46,7 @@ export default function Math58() {
             <span>Индивидуальная программа обучения исходя из вашего запроса</span>
             <div>
               <p>55 минут</p>
-              <b>5.000₽</b>
+              <b>6.000₽</b>
             </div>
             <div className="button-link">
               <Link href="/services/course-description">Подробнее</Link>

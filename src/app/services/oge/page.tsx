@@ -85,7 +85,7 @@ export default function Oge() {
             </ul>
             <div className={style.info}>
               <p>55 минут</p>
-              <b>3.000₽</b>
+              <b>3.500₽</b>
             </div>
             <div className={style.wrapperForButton}>
               <div className="button-link">
@@ -101,7 +101,7 @@ export default function Oge() {
             <span>Индивидуальная программа обучения исходя из вашего запроса</span>
             <div className={style.info}>
               <p>55 минут</p>
-              <b>5.000₽</b>
+              <b>6.000₽</b>
             </div>
             <div className={style.wrapperForButton}>
               <div className="button-link">
